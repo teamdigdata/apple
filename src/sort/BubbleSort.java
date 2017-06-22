@@ -10,7 +10,9 @@ public class BubbleSort {
 		 * @author GwangMo
 		 * @since 2017.06.22
 		 */
+
 		System.out.println("I am GM");
+		System.out.println("I am Hwang");
 	}
 
 }
