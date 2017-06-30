@@ -13,6 +13,16 @@ public class BubbleSort {
 
 		System.out.println("I am GM");
 		System.out.println("I am Hwang");
+
+	
+		/*
+		 * It is me
+		 * @author DongHoon
+		 * @since 2017. 06.30
+		 */
+
+		System.out.println("I am DH");
+		System.out.println("I am Lee");
 	}
 
 }
