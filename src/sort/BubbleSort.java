@@ -44,7 +44,7 @@ public class BubbleSort {
 		 * Bubble Sort
 		 */
 		
-		// 배열 생성
+		// start
 		System.out.println("\n=================================");
 		System.out.println("\t Bubble Sort Start");
 		System.out.println("=================================");
