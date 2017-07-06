@@ -27,6 +27,8 @@ public class UserInput {
         lBubble.add(userInput.next());
         i++;
       }
+      
+      BubbleSort.printArr(lBubble);
 
     } catch (Exception e) {
       e.printStackTrace();

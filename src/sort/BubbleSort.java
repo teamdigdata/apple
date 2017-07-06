@@ -146,7 +146,6 @@ public class BubbleSort {
 
     int i=0;
     int bubbleSize = lBubble.size();
-    Object temp=null;
 
     while(i<bubbleSize-1)
     {
@@ -154,6 +153,7 @@ public class BubbleSort {
 
       for(int j=0; j<bubbleSize-(1+i); j++)
       {
+   	    Object temp=null;
         double curNum = Double.parseDouble((String) lBubble.get(j));
         double nextNum = Double.parseDouble((String) lBubble.get(j+1));
 
@@ -166,13 +166,14 @@ public class BubbleSort {
           changeTime++;
         }
       }
-
-      i++;
-      printArr(lBubble);
-
+      
       if(changeTime == 0) {
         break;
       }
+      
+      printArr(lBubble);
+      i++;
+
     }
   }
 
